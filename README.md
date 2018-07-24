@@ -16,14 +16,16 @@ datasets, serving investment professionals.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/quandl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/quandl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/quandl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/quandl-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/quandl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/quandl-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/quandl-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/quandl-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/quandl-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/quandl-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/quandl-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/quandl-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/quandl/badges/version.svg)](https://anaconda.org/conda-forge/quandl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/quandl/badges/downloads.svg)](https://anaconda.org/conda-forge/quandl)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-quandl-green.svg)](https://anaconda.org/conda-forge/quandl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/quandl.svg)](https://anaconda.org/conda-forge/quandl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/quandl.svg)](https://anaconda.org/conda-forge/quandl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/quandl.svg)](https://anaconda.org/conda-forge/quandl) |
 
 Installing quandl
 =================
