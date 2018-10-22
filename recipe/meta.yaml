@@ -1,6 +1,6 @@
 {% set name = "Quandl" %}
-{% set version = "3.4.0" %}
-{% set sha256 = "bb6f4f306613dfbed543704b20382e3554d155a3851fb32a0040f0b981ee4b3c" %}
+{% set version = "3.4.3" %}
+{% set sha256 = "7c3cc25f5d8ffb9dba25579ea743efcc6394ab5bf08ce8d99ec03ca79e44d3ca" %}
 
 package:
   name: {{ name|lower }}
