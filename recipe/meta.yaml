@@ -1,6 +1,6 @@
 {% set name = "Quandl" %}
-{% set version = "3.4.4" %}
-{% set sha256 = "1e49175729f9f1e17d81800cc850e9cd3639a5510bf38fe2bd80b907b62768f3" %}
+{% set version = "3.4.6" %}
+{% set sha256 = "8f24dbfb0832a19c2eee5c2aa317fa6bc87ecb977c1a0515e8aaad42a4456595" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
