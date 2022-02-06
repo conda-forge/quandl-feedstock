@@ -1,5 +1,5 @@
 {% set name = "Quandl" %}
-{% set version = "3.4.6" %}
+{% set version = "3.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8f24dbfb0832a19c2eee5c2aa317fa6bc87ecb977c1a0515e8aaad42a4456595
+  sha256: 6e0b82fbc7861610b3577c5397277c4220e065eee0fed4e46cd6b6021655b64c
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -39,7 +39,7 @@ about:
   license_family: MIT
   # have requested to add it to the upstream: https://github.com/quandl/quandl-python/issues/103
   # license_file: LICENSE.txt
-  summary: 'Source for financial, economic, and alternative datasets.'
+  summary: Source for financial, economic, and alternative datasets.
 
   description: |
     The premier source for financial, economic, and alternative
